@@ -60,13 +60,20 @@ class RecognizerInterface {
   late var _setRotation;
   late var _setFlip;
   late var _getAdjustedSource;
-  final streamAddFaceController = StreamController<RecognizedFace>();
-  final streamCompareFaceController = StreamController<List<RecognizedFace>>();
+  var streamAddFaceController = StreamController<RecognizedFace>();
+  var streamCompareFaceController = StreamController<List<RecognizedFace>>();
   bool isGetAdjustedSource = false;
 
   factory RecognizerInterface() {
     _instance ??= RecognizerInterface._internal();
     return _instance!;
+  }
+
+  resetController() {
+    streamAddFaceController.close();
+    streamAddFaceController.close();
+    streamAddFaceController = StreamController<RecognizedFace>();
+    streamCompareFaceController = StreamController<List<RecognizedFace>>();
   }
 
   RecognizerInterface._internal() {

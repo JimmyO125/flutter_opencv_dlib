@@ -23,8 +23,8 @@ class DetectorInterface {
   late var _setFlip;
   late var _setGetOnlyRectangle;
   late var _getAdjustedSource;
-  final streamImageController = StreamController<Uint8List>();
-  final streamPointsController = StreamController<FacePoints>();
+  var streamImageController = StreamController<Uint8List>();
+  var streamPointsController = StreamController<FacePoints>();
   bool isGetAdjustedSource = false;
 
   factory DetectorInterface() {
@@ -102,6 +102,13 @@ class DetectorInterface {
     _setInputColorSpace(colorSpace.index);
   }
 
+  resetController() {
+    streamPointsController.close();
+    streamImageController.close();
+    streamImageController = StreamController<Uint8List>();
+    streamPointsController = StreamController<FacePoints>();
+  }
+
   ///  0  Rotate 90 degrees clockwise
   ///  1  Rotate 180 degrees clockwise
   ///  2  Rotate 270 degrees clockwise
@@ -124,7 +131,7 @@ class DetectorInterface {
 
   /// Return the bitmap which DLib will manage to find face
   Future<Uint8List> getAdjustedSource(
-      int width, int height, int bytesPerPixel, Uint8List bytes) async{
+      int width, int height, int bytesPerPixel, Uint8List bytes) async {
     if (bytes.isEmpty || isGetAdjustedSource) return Uint8List(0);
     isGetAdjustedSource = true;
 
@@ -133,14 +140,14 @@ class DetectorInterface {
     Pointer<Pointer<Uint8>> retImg = calloc<Pointer<Uint8>>(2);
     Pointer<Int32> retImgLength = calloc<Int32>(4);
 
-    _getAdjustedSource(width, height, bytesPerPixel, buffer,
-        retImg, retImgLength);
+    _getAdjustedSource(
+        width, height, bytesPerPixel, buffer, retImg, retImgLength);
 
     int length = retImgLength.value;
     Uint8List ret = Uint8List(length);
     if (length > 0) {
       Pointer<Uint8> imgCppPointer = retImg.elementAt(0).value;
-      for (int i=0; i<length; i++){
+      for (int i = 0; i < length; i++) {
         ret[i] = retImg.value[i];
       }
       calloc.free(imgCppPointer);
@@ -168,14 +175,12 @@ class DetectorInterface {
       'bytesPerPixel': bytesPerPixel ?? 0,
       'bytes': bytes,
     };
-    compute(getFacePosePointsIsolate, params)
-    .then((value) {
+    compute(getFacePosePointsIsolate, params).then((value) {
       if (value.nFaces > 0) {
         streamPointsController.add(value);
       }
       isGettingFaces = false;
     });
-
   }
 
   Future drawFacePose(
@@ -306,12 +311,6 @@ Future<FacePoints> getFacePosePointsIsolate(Map params) async {
   return ret;
 }
 
-
-
-
-
-
-
 /*
  * Isolate to call drawFacePose
  */
@@ -365,8 +364,8 @@ Future<bool> loadShapePredictorIsolate(var sp) async {
   DynamicLibrary nativeLib = Platform.isAndroid || Platform.isLinux
       ? DynamicLibrary.open("libflutter_opencv_dlib_plugin.so")
       : (Platform.isWindows
-      ? DynamicLibrary.open("flutter_opencv_dlib_plugin.dll")
-      : DynamicLibrary.process());
+          ? DynamicLibrary.open("flutter_opencv_dlib_plugin.dll")
+          : DynamicLibrary.process());
 
   var _initDetector = nativeLib
       .lookup<
