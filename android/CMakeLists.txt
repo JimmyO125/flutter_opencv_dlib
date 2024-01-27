@@ -16,11 +16,11 @@ cmake_minimum_required(VERSION 3.4.1)
 # You can define multiple libraries, and CMake builds it for you.
 # Gradle automatically packages shared libraries with your APK.
 
-add_library( # Sets the name of the library.
-            flutter_opencv_dlib_plugin
+#add_library( # Sets the name of the library.
+            #flutter_opencv_dlib_plugin
 
              # Sets the library as a shared library.
-             SHARED
+            # SHARED
 
              # Provides a relative path to your source file(s).
              # Associated headers in the same location as their source
@@ -34,7 +34,7 @@ add_library( # Sets the name of the library.
 			 # ../ios/Classes/cpp/fixed_queue.h
 			 # ../ios/Classes/cpp/common.cpp
 			 # ../ios/Classes/cpp/common.h
-             )
+          #   )
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because system libraries are included in the search path by
