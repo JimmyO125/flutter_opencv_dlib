@@ -46,7 +46,7 @@
 
 #ifdef __cplusplus
 
-#include <opencv4/opencv2/core.hpp>
+#include <opencv2/core.hpp>
 
 namespace cv
 {

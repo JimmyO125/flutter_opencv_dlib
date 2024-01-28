@@ -26,8 +26,8 @@
 #ifndef OPENCV_CORE_QUATERNION_HPP
 #define OPENCV_CORE_QUATERNION_HPP
 
-#include <opencv4/opencv2/core.hpp>
-#include <opencv4/opencv2/core/utils/logger.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/core/utils/logger.hpp>
 #include <iostream>
 namespace cv
 {
@@ -1691,6 +1691,6 @@ using Quatf = Quat<float>;
 //! @} core
 }
 
-#include "opencv4/opencv2/core/quaternion.inl.hpp"
+#include "opencv2/core/quaternion.inl.hpp"
 
 #endif /* OPENCV_CORE_QUATERNION_HPP */

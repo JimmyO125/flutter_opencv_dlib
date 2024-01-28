@@ -52,7 +52,7 @@
  */
 
 #include <cuda_runtime.h>
-#include "opencv4/opencv2/core/cuda.hpp"
+#include "opencv2/core/cuda.hpp"
 
 namespace cv
 {

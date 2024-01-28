@@ -14,13 +14,13 @@
 #include <tuple> // tuple, tuple_size
 #include <map>
 
-#include <opencv4/opencv2/gapi/opencv_includes.hpp>
-#include <opencv4/opencv2/gapi/util/any.hpp>
+#include <opencv2/gapi/opencv_includes.hpp>
+#include <opencv2/gapi/util/any.hpp>
 
-#include <opencv4/opencv2/core/cvdef.h>     // GAPI_EXPORTS
-#include <opencv4/opencv2/gapi/gkernel.hpp> // GKernelPackage
-#include <opencv4/opencv2/gapi/infer.hpp>   // Generic
-#include <opencv4/opencv2/gapi/streaming/onevpl/accel_types.hpp> // Preproc Dev & Ctx
+#include <opencv2/core/cvdef.h>     // GAPI_EXPORTS
+#include <opencv2/gapi/gkernel.hpp> // GKernelPackage
+#include <opencv2/gapi/infer.hpp>   // Generic
+#include <opencv2/gapi/streaming/onevpl/accel_types.hpp> // Preproc Dev & Ctx
 
 namespace cv {
 namespace gapi {

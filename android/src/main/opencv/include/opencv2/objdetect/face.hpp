@@ -5,7 +5,7 @@
 #ifndef OPENCV_OBJDETECT_FACE_HPP
 #define OPENCV_OBJDETECT_FACE_HPP
 
-#include <opencv4/opencv2/core.hpp>
+#include <opencv2/core.hpp>
 
 namespace cv
 {

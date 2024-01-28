@@ -5,7 +5,7 @@
 #include "fixed_queue.h"
 #include "face_common.h"
 
-#include <opencv4/opencv2/core/mat.hpp>
+#include <opencv2/core/mat.hpp>
 #include <dlib/image_processing/frontal_face_detector.h>
 #include <dlib/image_processing.h>
 #include <stdio.h>

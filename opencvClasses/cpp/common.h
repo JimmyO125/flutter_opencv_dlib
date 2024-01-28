@@ -2,8 +2,8 @@
 #define COMMON_H
 
 #include <stdio.h>
-#include <opencv4/opencv2/core/mat.hpp>
-#include <opencv4/opencv2/imgcodecs.hpp>
+#include <opencv2/core/mat.hpp>
+#include <opencv2/imgcodecs.hpp>
 
 enum ColorSpace {
     SRC_RGB = 0,

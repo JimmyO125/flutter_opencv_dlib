@@ -10,7 +10,7 @@
 #include <memory>                      // shared_ptr
 #include <type_traits>                 // is_base_of
 
-#include <opencv4/opencv2/gapi/gmetaarg.hpp>   // GMetaArg
+#include <opencv2/gapi/gmetaarg.hpp>   // GMetaArg
 
 
 namespace cv {

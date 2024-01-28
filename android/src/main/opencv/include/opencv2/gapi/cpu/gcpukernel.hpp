@@ -18,13 +18,13 @@
 #include <utility>
 #include <vector>
 
-#include <opencv4/opencv2/core/mat.hpp>
-#include <opencv4/opencv2/gapi/gcommon.hpp>
-#include <opencv4/opencv2/gapi/gkernel.hpp>
-#include <opencv4/opencv2/gapi/garg.hpp>
-#include <opencv4/opencv2/gapi/gmetaarg.hpp>
-#include <opencv4/opencv2/gapi/util/compiler_hints.hpp> //suppress_unused_warning
-#include <opencv4/opencv2/gapi/util/util.hpp>
+#include <opencv2/core/mat.hpp>
+#include <opencv2/gapi/gcommon.hpp>
+#include <opencv2/gapi/gkernel.hpp>
+#include <opencv2/gapi/garg.hpp>
+#include <opencv2/gapi/gmetaarg.hpp>
+#include <opencv2/gapi/util/compiler_hints.hpp> //suppress_unused_warning
+#include <opencv2/gapi/util/util.hpp>
 
 // FIXME: namespace scheme for backends?
 namespace cv {

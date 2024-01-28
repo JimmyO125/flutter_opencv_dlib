@@ -8,9 +8,9 @@
 #ifndef OPENCV_GAPI_RENDER_HPP
 #define OPENCV_GAPI_RENDER_HPP
 
-#include <opencv4/opencv2/gapi/render/render_types.hpp>
+#include <opencv2/gapi/render/render_types.hpp>
 
-#include <opencv4/opencv2/gapi.hpp>
+#include <opencv2/gapi.hpp>
 
 /** \defgroup gapi_draw G-API Drawing and composition functionality
  *  @{

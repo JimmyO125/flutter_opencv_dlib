@@ -10,10 +10,10 @@
 #define OPENCV_GAPI_OPENCV_INCLUDES_HPP
 
 #if !defined(GAPI_STANDALONE)
-#  include <opencv4/opencv2/core/mat.hpp>
-#  include <opencv4/opencv2/core/cvdef.h>
-#  include <opencv4/opencv2/core/types.hpp>
-#  include <opencv4/opencv2/core/base.hpp>
+#  include <opencv2/core/mat.hpp>
+#  include <opencv2/core/cvdef.h>
+#  include <opencv2/core/types.hpp>
+#  include <opencv2/core/base.hpp>
 #define GAPI_OWN_TYPES_LIST     cv::gapi::own::Rect,                           \
                                 cv::gapi::own::Size,                           \
                                 cv::gapi::own::Point,                          \
@@ -21,10 +21,10 @@
                                 cv::gapi::own::Scalar,                         \
                                 cv::gapi::own::Mat
 #else   // Without OpenCV
-#  include <opencv4/opencv2/gapi/own/cvdefs.hpp>
-#  include <opencv4/opencv2/gapi/own/types.hpp>  // cv::gapi::own::Rect/Size/Point
-#  include <opencv4/opencv2/gapi/own/scalar.hpp> // cv::gapi::own::Scalar
-#  include <opencv4/opencv2/gapi/own/mat.hpp>
+#  include <opencv2/gapi/own/cvdefs.hpp>
+#  include <opencv2/gapi/own/types.hpp>  // cv::gapi::own::Rect/Size/Point
+#  include <opencv2/gapi/own/scalar.hpp> // cv::gapi::own::Scalar
+#  include <opencv2/gapi/own/mat.hpp>
 // replacement of cv's structures:
 namespace cv {
     using Rect    = gapi::own::Rect;

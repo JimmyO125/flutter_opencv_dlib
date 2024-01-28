@@ -5,7 +5,7 @@
 #ifndef OPENCV_CORE_LOGTAG_HPP
 #define OPENCV_CORE_LOGTAG_HPP
 
-#include "opencv4/opencv2/core/cvstd.hpp"
+#include "opencv2/core/cvstd.hpp"
 #include "logger.defines.hpp"
 
 namespace cv {

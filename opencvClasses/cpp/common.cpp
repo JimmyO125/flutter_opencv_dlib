@@ -1,11 +1,11 @@
 #include "common.h"
 
-#include <opencv4/opencv2/opencv.hpp>
+#include <opencv2/opencv.hpp>
 
-#include <opencv4/opencv2/core/core.hpp>
-#include <opencv4/opencv2/imgproc/imgproc.hpp>
-#include <opencv4/opencv2/imgproc.hpp>
-#include <opencv4/opencv2/imgcodecs.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/imgproc.hpp>
+#include <opencv2/imgcodecs.hpp>
 #include <cstdio>
 
 std::mutex _mutex;

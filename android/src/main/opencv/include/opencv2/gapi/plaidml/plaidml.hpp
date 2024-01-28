@@ -9,7 +9,7 @@
 #define OPENCV_GAPI_PLAIDML_PLAIDML_HPP
 
 #include <string>
-#include <opencv4/opencv2/gapi/gcommon.hpp> // CompileArgTag
+#include <opencv2/gapi/gcommon.hpp> // CompileArgTag
 
 namespace cv
 {

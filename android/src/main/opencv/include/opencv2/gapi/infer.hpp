@@ -16,12 +16,12 @@
 #include <utility> // tuple
 #include <type_traits> // is_same, false_type
 
-#include <opencv4/opencv2/gapi/util/util.hpp> // all_satisfy
-#include <opencv4/opencv2/gapi/util/any.hpp>  // any<>
-#include <opencv4/opencv2/gapi/gkernel.hpp>   // GKernelType[M], GBackend
-#include <opencv4/opencv2/gapi/garg.hpp>      // GArg
-#include <opencv4/opencv2/gapi/gcommon.hpp>   // CompileArgTag
-#include <opencv4/opencv2/gapi/gmetaarg.hpp>  // GMetaArg
+#include <opencv2/gapi/util/util.hpp> // all_satisfy
+#include <opencv2/gapi/util/any.hpp>  // any<>
+#include <opencv2/gapi/gkernel.hpp>   // GKernelType[M], GBackend
+#include <opencv2/gapi/garg.hpp>      // GArg
+#include <opencv2/gapi/gcommon.hpp>   // CompileArgTag
+#include <opencv2/gapi/gmetaarg.hpp>  // GMetaArg
 
 namespace cv {
 

@@ -12,17 +12,17 @@
 #include <ostream>
 #include <memory>
 
-#include <opencv4/opencv2/gapi/own/exports.hpp>
-#include <opencv4/opencv2/gapi/opencv_includes.hpp>
+#include <opencv2/gapi/own/exports.hpp>
+#include <opencv2/gapi/opencv_includes.hpp>
 
-#include <opencv4/opencv2/gapi/util/any.hpp>
-#include <opencv4/opencv2/gapi/util/variant.hpp>
-#include <opencv4/opencv2/gapi/util/throw.hpp>
-#include <opencv4/opencv2/gapi/util/type_traits.hpp>
-#include <opencv4/opencv2/gapi/own/assert.hpp>
+#include <opencv2/gapi/util/any.hpp>
+#include <opencv2/gapi/util/variant.hpp>
+#include <opencv2/gapi/util/throw.hpp>
+#include <opencv2/gapi/util/type_traits.hpp>
+#include <opencv2/gapi/own/assert.hpp>
 
-#include <opencv4/opencv2/gapi/gcommon.hpp>  // OpaqueKind
-#include <opencv4/opencv2/gapi/garray.hpp>  // TypeHintBase
+#include <opencv2/gapi/gcommon.hpp>  // OpaqueKind
+#include <opencv2/gapi/garray.hpp>  // TypeHintBase
 
 namespace cv
 {

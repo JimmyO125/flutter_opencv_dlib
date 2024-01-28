@@ -7,8 +7,8 @@
 #ifndef OPENCV_GAPI_STREAMING_GSTREAMER_GSTREAMERSOURCE_HPP
 #define OPENCV_GAPI_STREAMING_GSTREAMER_GSTREAMERSOURCE_HPP
 
-#include <opencv4/opencv2/gapi/streaming/source.hpp>
-#include <opencv4/opencv2/gapi/garg.hpp>
+#include <opencv2/gapi/streaming/source.hpp>
+#include <opencv2/gapi/garg.hpp>
 
 #include <memory>
 

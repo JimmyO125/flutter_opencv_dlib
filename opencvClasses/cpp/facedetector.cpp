@@ -2,8 +2,8 @@
 #include "common.h"
 #include "face_common.h"
 
-#include <opencv4/opencv2/opencv.hpp>
-#include <opencv4/opencv2/core/mat.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/mat.hpp>
 #include <dlib/image_processing/frontal_face_detector.h>
 #include <dlib/opencv.h>
 

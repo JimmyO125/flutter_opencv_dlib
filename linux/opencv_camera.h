@@ -3,9 +3,9 @@
 
 #include <vector>
 #include <atomic>
-#include <opencv4/opencv2/opencv.hpp>
-#include <opencv4/opencv2/imgcodecs.hpp>
-#include <opencv4/opencv2/video/video.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/video/video.hpp>
 
 enum CameraMsg {
     MSG_NONE,

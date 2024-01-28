@@ -45,8 +45,8 @@
 
 //! @cond IGNORED
 
-#include "opencv4/opencv2/core.hpp"
-#include "opencv4/opencv2/flann/defines.h"
+#include "opencv2/core.hpp"
+#include "opencv2/flann/defines.h"
 
 namespace cv
 {

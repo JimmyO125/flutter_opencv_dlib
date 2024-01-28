@@ -12,8 +12,8 @@
 #include <functional> // function<>
 #include <utility>    // forward<>()
 
-#include <opencv4/opencv2/gapi/gframe.hpp>
-#include <opencv4/opencv2/gapi/util/any.hpp>
+#include <opencv2/gapi/gframe.hpp>
+#include <opencv2/gapi/util/any.hpp>
 
 // Forward declaration
 namespace cv {

@@ -5,7 +5,7 @@
 #ifndef OPENCV_CORE_PARALLEL_FOR_OPENMP_HPP
 #define OPENCV_CORE_PARALLEL_FOR_OPENMP_HPP
 
-#include "opencv4/opencv2/core/parallel/parallel_backend.hpp"
+#include "opencv2/core/parallel/parallel_backend.hpp"
 
 #if !defined(_OPENMP) && !defined(OPENCV_SKIP_OPENMP_PRESENSE_CHECK)
 #error "This file must be compiled with enabled OpenMP"

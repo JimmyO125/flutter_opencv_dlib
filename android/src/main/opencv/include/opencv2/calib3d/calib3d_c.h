@@ -44,7 +44,7 @@
 #ifndef OPENCV_CALIB3D_C_H
 #define OPENCV_CALIB3D_C_H
 
-#include "opencv4/opencv2/core/types_c.h"
+#include "opencv2/core/types_c.h"
 
 #ifdef __cplusplus
 extern "C" {

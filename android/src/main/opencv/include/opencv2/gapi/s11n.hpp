@@ -10,11 +10,11 @@
 #include <vector>
 #include <map>
 #include <unordered_map>
-#include <opencv4/opencv2/gapi/s11n/base.hpp>
-#include <opencv4/opencv2/gapi/gcomputation.hpp>
-#include <opencv4/opencv2/gapi/rmat.hpp>
-#include <opencv4/opencv2/gapi/media.hpp>
-#include <opencv4/opencv2/gapi/util/util.hpp>
+#include <opencv2/gapi/s11n/base.hpp>
+#include <opencv2/gapi/gcomputation.hpp>
+#include <opencv2/gapi/rmat.hpp>
+#include <opencv2/gapi/media.hpp>
+#include <opencv2/gapi/util/util.hpp>
 
 // FIXME: caused by deserialize_runarg
 #if (defined _WIN32 || defined _WIN64) && defined _MSC_VER

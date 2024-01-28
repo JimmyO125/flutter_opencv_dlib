@@ -7,9 +7,9 @@
 #ifndef OPENCV_GAPI_STEREO_HPP
 #define OPENCV_GAPI_STEREO_HPP
 
-#include <opencv4/opencv2/gapi/gmat.hpp>
-#include <opencv4/opencv2/gapi/gscalar.hpp>
-#include <opencv4/opencv2/gapi/gkernel.hpp>
+#include <opencv2/gapi/gmat.hpp>
+#include <opencv2/gapi/gscalar.hpp>
+#include <opencv2/gapi/gkernel.hpp>
 
 namespace cv {
 namespace gapi {

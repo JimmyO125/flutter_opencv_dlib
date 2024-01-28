@@ -1,9 +1,9 @@
 #ifndef CV_IMGPROC_HAL_HPP
 #define CV_IMGPROC_HAL_HPP
 
-#include "opencv4/opencv2/core/cvdef.h"
-#include "opencv4/opencv2/core/cvstd.hpp"
-#include "opencv4/opencv2/core/hal/interface.h"
+#include "opencv2/core/cvdef.h"
+#include "opencv2/core/cvstd.hpp"
+#include "opencv2/core/hal/interface.h"
 
 namespace cv { namespace hal {
 

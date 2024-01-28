@@ -44,7 +44,7 @@
 #ifndef OPENCV_OBJDETECT_HPP
 #define OPENCV_OBJDETECT_HPP
 
-#include "opencv4/opencv2/core.hpp"
+#include "opencv2/core.hpp"
 
 /**
 @defgroup objdetect Object Detection
@@ -843,7 +843,7 @@ protected:
 //! @}
 }
 
-#include "opencv4/opencv2/objdetect/detection_based_tracker.hpp"
-#include "opencv4/opencv2/objdetect/face.hpp"
+#include "opencv2/objdetect/detection_based_tracker.hpp"
+#include "opencv2/objdetect/face.hpp"
 
 #endif

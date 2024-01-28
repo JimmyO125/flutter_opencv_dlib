@@ -13,10 +13,10 @@
 #include <ostream> // ostream
 #include <cstdint> // uint8_t
 
-#include <opencv4/opencv2/gapi/opencv_includes.hpp>
-#include <opencv4/opencv2/gapi/gmat.hpp>
+#include <opencv2/gapi/opencv_includes.hpp>
+#include <opencv2/gapi/gmat.hpp>
 
-#include <opencv4/opencv2/gapi/util/optional.hpp>
+#include <opencv2/gapi/util/optional.hpp>
 
 namespace cv {
 namespace gapi {

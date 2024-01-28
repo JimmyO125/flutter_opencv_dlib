@@ -12,11 +12,11 @@
 #include <array>
 #include <tuple> // tuple, tuple_size
 
-#include <opencv4/opencv2/gapi/opencv_includes.hpp>
-#include <opencv4/opencv2/gapi/util/any.hpp>
+#include <opencv2/gapi/opencv_includes.hpp>
+#include <opencv2/gapi/util/any.hpp>
 
-#include <opencv4/opencv2/core/cvdef.h>     // GAPI_EXPORTS
-#include <opencv4/opencv2/gapi/gkernel.hpp> // GKernelPackage
+#include <opencv2/core/cvdef.h>     // GAPI_EXPORTS
+#include <opencv2/gapi/gkernel.hpp> // GKernelPackage
 
 namespace cv {
 namespace gapi {

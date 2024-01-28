@@ -15,14 +15,14 @@
 #include <unordered_map> // map (for GKernelPackage)
 #include <utility> // tuple
 
-#include <opencv4/opencv2/gapi/gcommon.hpp> // CompileArgTag
-#include <opencv4/opencv2/gapi/util/util.hpp> // Seq
-#include <opencv4/opencv2/gapi/gcall.hpp>
-#include <opencv4/opencv2/gapi/garg.hpp>      // GArg
-#include <opencv4/opencv2/gapi/gmetaarg.hpp>  // GMetaArg
-#include <opencv4/opencv2/gapi/gtype_traits.hpp> // GTypeTraits
-#include <opencv4/opencv2/gapi/util/compiler_hints.hpp> //suppress_unused_warning
-#include <opencv4/opencv2/gapi/gtransform.hpp>
+#include <opencv2/gapi/gcommon.hpp> // CompileArgTag
+#include <opencv2/gapi/util/util.hpp> // Seq
+#include <opencv2/gapi/gcall.hpp>
+#include <opencv2/gapi/garg.hpp>      // GArg
+#include <opencv2/gapi/gmetaarg.hpp>  // GMetaArg
+#include <opencv2/gapi/gtype_traits.hpp> // GTypeTraits
+#include <opencv2/gapi/util/compiler_hints.hpp> //suppress_unused_warning
+#include <opencv2/gapi/gtransform.hpp>
 
 namespace cv {
 

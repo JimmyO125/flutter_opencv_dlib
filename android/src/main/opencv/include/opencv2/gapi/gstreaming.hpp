@@ -11,11 +11,11 @@
 #include <memory>
 #include <vector>
 
-#include <opencv4/opencv2/gapi/opencv_includes.hpp>
-#include <opencv4/opencv2/gapi/own/assert.hpp>
-#include <opencv4/opencv2/gapi/util/optional.hpp>
-#include <opencv4/opencv2/gapi/garg.hpp>
-#include <opencv4/opencv2/gapi/streaming/source.hpp>
+#include <opencv2/gapi/opencv_includes.hpp>
+#include <opencv2/gapi/own/assert.hpp>
+#include <opencv2/gapi/util/optional.hpp>
+#include <opencv2/gapi/garg.hpp>
+#include <opencv2/gapi/streaming/source.hpp>
 
 namespace cv {
 

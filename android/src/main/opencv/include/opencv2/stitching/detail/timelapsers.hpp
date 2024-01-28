@@ -44,7 +44,7 @@
 #ifndef OPENCV_STITCHING_TIMELAPSERS_HPP
 #define OPENCV_STITCHING_TIMELAPSERS_HPP
 
-#include "opencv4/opencv2/core.hpp"
+#include "opencv2/core.hpp"
 
 namespace cv {
 namespace detail {

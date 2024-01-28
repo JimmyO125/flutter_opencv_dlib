@@ -6,7 +6,7 @@
 #define OPENCV_HAL_INTRIN_MSA_HPP
 
 #include <algorithm>
-#include "opencv4/opencv2/core/utility.hpp"
+#include "opencv2/core/utility.hpp"
 
 namespace cv
 {

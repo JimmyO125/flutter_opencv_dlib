@@ -9,8 +9,8 @@
 #ifndef OPENCV_GAPI_GPLAIDMLKERNEL_HPP
 #define OPENCV_GAPI_GPLAIDMLKERNEL_HPP
 
-#include <opencv4/opencv2/gapi/gkernel.hpp>
-#include <opencv4/opencv2/gapi/garg.hpp>
+#include <opencv2/gapi/gkernel.hpp>
+#include <opencv2/gapi/garg.hpp>
 
 namespace plaidml
 {

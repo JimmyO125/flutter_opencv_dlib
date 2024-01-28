@@ -10,12 +10,12 @@
 
 #include <functional>
 
-#include <opencv4/opencv2/gapi/util/util.hpp>
-#include <opencv4/opencv2/gapi/gcommon.hpp>
-#include <opencv4/opencv2/gapi/gproto.hpp>
-#include <opencv4/opencv2/gapi/garg.hpp>
-#include <opencv4/opencv2/gapi/gcompiled.hpp>
-#include <opencv4/opencv2/gapi/gstreaming.hpp>
+#include <opencv2/gapi/util/util.hpp>
+#include <opencv2/gapi/gcommon.hpp>
+#include <opencv2/gapi/gproto.hpp>
+#include <opencv2/gapi/garg.hpp>
+#include <opencv2/gapi/gcompiled.hpp>
+#include <opencv2/gapi/gstreaming.hpp>
 
 namespace cv {
 

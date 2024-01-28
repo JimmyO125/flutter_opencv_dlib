@@ -42,9 +42,9 @@
 #ifndef OPENCV_VIDEOIO_H
 #define OPENCV_VIDEOIO_H
 
-#include "opencv4/opencv2/core/core_c.h"
+#include "opencv2/core/core_c.h"
 
-#include "opencv4/opencv2/videoio/legacy/constants_c.h"
+#include "opencv2/videoio/legacy/constants_c.h"
 
 #ifdef __cplusplus
 extern "C" {

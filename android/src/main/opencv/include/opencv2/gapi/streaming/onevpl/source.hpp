@@ -7,12 +7,12 @@
 #ifndef OPENCV_GAPI_STREAMING_ONEVPL_ONEVPL_SOURCE_HPP
 #define OPENCV_GAPI_STREAMING_ONEVPL_ONEVPL_SOURCE_HPP
 
-#include <opencv4/opencv2/gapi/garg.hpp>
-#include <opencv4/opencv2/gapi/streaming/meta.hpp>
-#include <opencv4/opencv2/gapi/streaming/source.hpp>
-#include <opencv4/opencv2/gapi/streaming/onevpl/cfg_params.hpp>
-#include <opencv4/opencv2/gapi/streaming/onevpl/data_provider_interface.hpp>
-#include <opencv4/opencv2/gapi/streaming/onevpl/device_selector_interface.hpp>
+#include <opencv2/gapi/garg.hpp>
+#include <opencv2/gapi/streaming/meta.hpp>
+#include <opencv2/gapi/streaming/source.hpp>
+#include <opencv2/gapi/streaming/onevpl/cfg_params.hpp>
+#include <opencv2/gapi/streaming/onevpl/data_provider_interface.hpp>
+#include <opencv2/gapi/streaming/onevpl/device_selector_interface.hpp>
 
 namespace cv {
 namespace gapi {

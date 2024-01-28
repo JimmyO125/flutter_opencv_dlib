@@ -11,8 +11,8 @@
 #include <memory>
 #include <string>
 
-#include <opencv4/opencv2/gapi/streaming/source.hpp>
-#include <opencv4/opencv2/gapi/util/variant.hpp>
+#include <opencv2/gapi/streaming/source.hpp>
+#include <opencv2/gapi/util/variant.hpp>
 
 namespace cv {
 namespace gapi {

@@ -7,8 +7,8 @@
 #ifndef OPENCV_GAPI_STREAMING_GSTREAMER_GSTREAMERPIPELINE_HPP
 #define OPENCV_GAPI_STREAMING_GSTREAMER_GSTREAMERPIPELINE_HPP
 
-#include <opencv4/opencv2/gapi/streaming/gstreamer/gstreamersource.hpp>
-#include <opencv4/opencv2/gapi/own/exports.hpp>
+#include <opencv2/gapi/streaming/gstreamer/gstreamersource.hpp>
+#include <opencv2/gapi/own/exports.hpp>
 
 #include <string>
 #include <unordered_map>

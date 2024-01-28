@@ -5,7 +5,7 @@
 #ifndef OPENCV_TRACE_HPP
 #define OPENCV_TRACE_HPP
 
-#include <opencv4/opencv2/core/cvdef.h>
+#include <opencv2/core/cvdef.h>
 
 namespace cv {
 namespace utils {

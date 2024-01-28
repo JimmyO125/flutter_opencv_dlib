@@ -7,7 +7,7 @@
 #ifndef OPENCV_GAPI_UTIL_COPY_THROUGH_MOVE_HPP
 #define OPENCV_GAPI_UTIL_COPY_THROUGH_MOVE_HPP
 
-#include <opencv4/opencv2/gapi/util/type_traits.hpp> //decay_t
+#include <opencv2/gapi/util/type_traits.hpp> //decay_t
 
 namespace cv
 {

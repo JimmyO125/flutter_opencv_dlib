@@ -7,9 +7,9 @@
 #ifndef OPENCV_GAPI_OAK_HPP
 #define OPENCV_GAPI_OAK_HPP
 
-#include <opencv4/opencv2/gapi/garg.hpp>       // IStreamSource
-#include <opencv4/opencv2/gapi/gkernel.hpp>    // GKernelPackage
-#include <opencv4/opencv2/gapi/gstreaming.hpp> // GOptRunArgsP
+#include <opencv2/gapi/garg.hpp>       // IStreamSource
+#include <opencv2/gapi/gkernel.hpp>    // GKernelPackage
+#include <opencv2/gapi/gstreaming.hpp> // GOptRunArgsP
 
 namespace cv {
 namespace gapi {

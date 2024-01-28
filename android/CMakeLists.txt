@@ -25,15 +25,15 @@ add_library( # Sets the name of the library.
              # Provides a relative path to your source file(s).
              # Associated headers in the same location as their source
              # file are automatically included.
-             ../ios/Classes/cpp/native-lib.cpp
-			 ../ios/Classes/cpp/facedetector.cpp
-			 ../ios/Classes/cpp/facedetector.h
-			 ../ios/Classes/cpp/facerecognition.cpp
-			 ../ios/Classes/cpp/facerecognition.h
-			 ../ios/Classes/cpp/face_common.h
-			 ../ios/Classes/cpp/fixed_queue.h
-			 ../ios/Classes/cpp/common.cpp
-			 ../ios/Classes/cpp/common.h
+             ../opencvClasses/cpp/native-lib.cpp
+			 ../opencvClasses/cpp/facedetector.cpp
+			 ../opencvClasses/cpp/facedetector.h
+			 ../opencvClasses/cpp/facerecognition.cpp
+			 ../opencvClasses/cpp/facerecognition.h
+			 ../opencvClasses/cpp/face_common.h
+			 ../opencvClasses/cpp/fixed_queue.h
+			 ../opencvClasses/cpp/common.cpp
+			 ../opencvClasses/cpp/common.h
              )
 
 # Searches for a specified prebuilt library and stores the path as a

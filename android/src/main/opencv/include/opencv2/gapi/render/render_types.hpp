@@ -11,9 +11,9 @@
 #include <string>
 #include <vector>
 
-#include <opencv4/opencv2/gapi/opencv_includes.hpp>
-#include <opencv4/opencv2/gapi/util/variant.hpp>
-#include <opencv4/opencv2/gapi/own/exports.hpp>
+#include <opencv2/gapi/opencv_includes.hpp>
+#include <opencv2/gapi/util/variant.hpp>
+#include <opencv2/gapi/own/exports.hpp>
 
 namespace cv
 {

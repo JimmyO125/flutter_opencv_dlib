@@ -1,7 +1,7 @@
 #ifndef FACERECOGNITION_H
 #define FACERECOGNITION_H
 
-#include <opencv4/opencv2/core/mat.hpp>
+#include <opencv2/core/mat.hpp>
 
 #include <dlib/dnn.h>
 #include <dlib/clustering.h>

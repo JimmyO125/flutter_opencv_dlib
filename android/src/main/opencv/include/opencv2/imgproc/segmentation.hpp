@@ -5,7 +5,7 @@
 #ifndef OPENCV_IMGPROC_SEGMENTATION_HPP
 #define OPENCV_IMGPROC_SEGMENTATION_HPP
 
-#include "opencv4/opencv2/imgproc.hpp"
+#include "opencv2/imgproc.hpp"
 
 namespace cv {
 

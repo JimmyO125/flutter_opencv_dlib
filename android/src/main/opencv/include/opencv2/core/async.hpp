@@ -5,7 +5,7 @@
 #ifndef OPENCV_CORE_ASYNC_HPP
 #define OPENCV_CORE_ASYNC_HPP
 
-#include <opencv4/opencv2/core/mat.hpp>
+#include <opencv2/core/mat.hpp>
 
 #ifdef CV_CXX11
 //#include <future>

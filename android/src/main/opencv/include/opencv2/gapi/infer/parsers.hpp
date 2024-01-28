@@ -10,8 +10,8 @@
 
 #include <utility> // std::tuple
 
-#include <opencv4/opencv2/gapi/gmat.hpp>
-#include <opencv4/opencv2/gapi/gkernel.hpp>
+#include <opencv2/gapi/gmat.hpp>
+#include <opencv2/gapi/gkernel.hpp>
 
 namespace cv { namespace gapi {
 namespace nn {

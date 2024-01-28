@@ -23,20 +23,20 @@
 @}
  */
 
-#include <opencv4/opencv2/gapi/gmat.hpp>
-#include <opencv4/opencv2/gapi/garray.hpp>
-#include <opencv4/opencv2/gapi/gscalar.hpp>
-#include <opencv4/opencv2/gapi/gopaque.hpp>
-#include <opencv4/opencv2/gapi/gframe.hpp>
-#include <opencv4/opencv2/gapi/gcomputation.hpp>
-#include <opencv4/opencv2/gapi/gcompiled.hpp>
-#include <opencv4/opencv2/gapi/gtyped.hpp>
-#include <opencv4/opencv2/gapi/gkernel.hpp>
-#include <opencv4/opencv2/gapi/operators.hpp>
+#include <opencv2/gapi/gmat.hpp>
+#include <opencv2/gapi/garray.hpp>
+#include <opencv2/gapi/gscalar.hpp>
+#include <opencv2/gapi/gopaque.hpp>
+#include <opencv2/gapi/gframe.hpp>
+#include <opencv2/gapi/gcomputation.hpp>
+#include <opencv2/gapi/gcompiled.hpp>
+#include <opencv2/gapi/gtyped.hpp>
+#include <opencv2/gapi/gkernel.hpp>
+#include <opencv2/gapi/operators.hpp>
 
 // Include these files here to avoid cyclic dependency between
 // Desync & GKernel & GComputation & GStreamingCompiled.
-#include <opencv4/opencv2/gapi/streaming/desync.hpp>
-#include <opencv4/opencv2/gapi/streaming/format.hpp>
+#include <opencv2/gapi/streaming/desync.hpp>
+#include <opencv2/gapi/streaming/format.hpp>
 
 #endif // OPENCV_GAPI_HPP
