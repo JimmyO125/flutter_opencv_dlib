@@ -65,7 +65,7 @@ class RecognizerInterface {
   bool isGetAdjustedSource = false;
 
   factory RecognizerInterface() {
-    _instance ??= RecognizerInterface._internal();
+    _instance = RecognizerInterface._internal();
     return _instance!;
   }
 
