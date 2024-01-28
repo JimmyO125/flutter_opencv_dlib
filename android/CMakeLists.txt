@@ -34,6 +34,7 @@ add_library( # Sets the name of the library.
 			 ../opencvClasses/cpp/fixed_queue.h
 			 ../opencvClasses/cpp/common.cpp
 			 ../opencvClasses/cpp/common.h
+             
              )
 
 # Searches for a specified prebuilt library and stores the path as a
