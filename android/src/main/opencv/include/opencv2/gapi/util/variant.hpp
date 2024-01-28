@@ -11,10 +11,10 @@
 #include <array>
 #include <type_traits>
 
-#include <opencv2/gapi/util/compiler_hints.hpp>
-#include <opencv2/gapi/util/throw.hpp>
-#include <opencv2/gapi/util/util.hpp> // max_of_t
-#include <opencv2/gapi/util/type_traits.hpp>
+#include <opencv4/opencv2/gapi/util/compiler_hints.hpp>
+#include <opencv4/opencv2/gapi/util/throw.hpp>
+#include <opencv4/opencv2/gapi/util/util.hpp> // max_of_t
+#include <opencv4/opencv2/gapi/util/type_traits.hpp>
 
 // A poor man's `variant` implementation, incompletely modeled against C++17 spec.
 namespace cv

@@ -8,10 +8,10 @@
 #ifndef OPENCV_GAPI_GPU_IMGPROC_API_HPP
 #define OPENCV_GAPI_GPU_IMGPROC_API_HPP
 /** @file
-* @deprecated Use <opencv2/gapi/ocl/imgproc.hpp> instead.
+* @deprecated Use <opencv4/opencv2/gapi/ocl/imgproc.hpp> instead.
 */
 
-#include <opencv2/gapi/ocl/imgproc.hpp>
+#include <opencv4/opencv2/gapi/ocl/imgproc.hpp>
 
 
 namespace cv {

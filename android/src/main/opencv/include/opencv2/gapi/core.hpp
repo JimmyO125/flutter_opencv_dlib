@@ -11,13 +11,13 @@
 #include <math.h>
 #include <utility> // std::tuple
 
-#include <opencv2/imgproc.hpp>
-#include <opencv2/gapi/imgproc.hpp>
+#include <opencv4/opencv2/imgproc.hpp>
+#include <opencv4/opencv2/gapi/imgproc.hpp>
 
-#include <opencv2/gapi/gmat.hpp>
-#include <opencv2/gapi/gscalar.hpp>
-#include <opencv2/gapi/gkernel.hpp>
-#include <opencv2/gapi/streaming/format.hpp>
+#include <opencv4/opencv2/gapi/gmat.hpp>
+#include <opencv4/opencv2/gapi/gscalar.hpp>
+#include <opencv4/opencv2/gapi/gkernel.hpp>
+#include <opencv4/opencv2/gapi/streaming/format.hpp>
 
 /** \defgroup gapi_core G-API Core functionality
 @{

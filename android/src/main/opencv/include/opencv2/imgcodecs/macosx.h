@@ -7,7 +7,7 @@
 #endif
 
 #import <AppKit/AppKit.h>
-#include "opencv2/core.hpp"
+#include "opencv4/opencv2/core.hpp"
 
 //! @addtogroup imgcodecs_macosx
 //! @{

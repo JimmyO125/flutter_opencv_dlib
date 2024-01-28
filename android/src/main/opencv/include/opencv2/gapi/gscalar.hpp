@@ -11,9 +11,9 @@
 
 #include <ostream>
 
-#include <opencv2/gapi/opencv_includes.hpp>
-#include <opencv2/gapi/gcommon.hpp> // GShape
-#include <opencv2/gapi/util/optional.hpp>
+#include <opencv4/opencv2/gapi/opencv_includes.hpp>
+#include <opencv4/opencv2/gapi/gcommon.hpp> // GShape
+#include <opencv4/opencv2/gapi/util/optional.hpp>
 
 namespace cv
 {

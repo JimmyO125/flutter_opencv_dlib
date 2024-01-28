@@ -9,6 +9,6 @@
 
 // This file is just a shortcut to render/render.hpp
 
-#include <opencv2/gapi/render/render.hpp>
+#include <opencv4/opencv2/gapi/render/render.hpp>
 
 #endif // OPENCV_GAPI_RENDER_ROOT_HPP

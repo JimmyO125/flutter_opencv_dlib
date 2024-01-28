@@ -26,8 +26,8 @@
 #ifndef OPENCV_CORE_DUALQUATERNION_HPP
 #define OPENCV_CORE_DUALQUATERNION_HPP
 
-#include <opencv2/core/quaternion.hpp>
-#include <opencv2/core/affine.hpp>
+#include <opencv4/opencv2/core/quaternion.hpp>
+#include <opencv4/opencv2/core/affine.hpp>
 
 namespace cv{
 //! @addtogroup core

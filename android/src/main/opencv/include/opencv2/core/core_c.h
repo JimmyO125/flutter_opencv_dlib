@@ -45,7 +45,7 @@
 #ifndef OPENCV_CORE_C_H
 #define OPENCV_CORE_C_H
 
-#include "opencv2/core/types_c.h"
+#include "opencv4/opencv2/core/types_c.h"
 
 #ifdef __cplusplus
 /* disable MSVC warning C4190 / clang-cl -Wreturn-type-c-linkage:
@@ -2728,7 +2728,7 @@ static char cvFuncName[] = Name
 
 #ifdef __cplusplus
 
-#include "opencv2/core/utility.hpp"
+#include "opencv4/opencv2/core/utility.hpp"
 
 namespace cv
 {

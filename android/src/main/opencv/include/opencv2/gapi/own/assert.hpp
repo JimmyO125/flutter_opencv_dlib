@@ -8,7 +8,7 @@
 #ifndef OPENCV_GAPI_OWN_ASSERT_HPP
 #define OPENCV_GAPI_OWN_ASSERT_HPP
 
-#include <opencv2/gapi/util/compiler_hints.hpp>
+#include <opencv4/opencv2/gapi/util/compiler_hints.hpp>
 
 #define GAPI_DbgAssertNoOp(expr) {                  \
     constexpr bool _assert_tmp = false && (expr);   \
@@ -16,7 +16,7 @@
 }
 
 #if !defined(GAPI_STANDALONE)
-#include <opencv2/core/base.hpp>
+#include <opencv4/opencv2/core/base.hpp>
 #define GAPI_Assert CV_Assert
 
 #if defined _DEBUG || defined CV_STATIC_ANALYSIS
@@ -28,7 +28,7 @@
 #else
 #include <stdexcept>
 #include <sstream>
-#include <opencv2/gapi/util/throw.hpp>
+#include <opencv4/opencv2/gapi/util/throw.hpp>
 
 namespace detail
 {

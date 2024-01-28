@@ -48,7 +48,7 @@
 #include <limits>
 #include <cstring>
 #include <algorithm>
-#include "opencv2/core/saturate.hpp"
+#include "opencv4/opencv2/core/saturate.hpp"
 
 //! @cond IGNORED
 #define CV_SIMD128_CPP 1

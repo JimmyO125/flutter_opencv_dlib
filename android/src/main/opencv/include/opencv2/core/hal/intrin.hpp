@@ -48,7 +48,7 @@
 #include <cmath>
 #include <float.h>
 #include <stdlib.h>
-#include "opencv2/core/cvdef.h"
+#include "opencv4/opencv2/core/cvdef.h"
 
 #define OPENCV_HAL_ADD(a, b) ((a) + (b))
 #define OPENCV_HAL_AND(a, b) ((a) & (b))
@@ -202,39 +202,39 @@ using namespace CV_CPU_OPTIMIZATION_HAL_NAMESPACE;
 
 #if (CV_SSE2 || CV_NEON || CV_VSX || CV_MSA || CV_WASM_SIMD || CV_RVV071 || CV_RVV) && !defined(CV_FORCE_SIMD128_CPP)
 #define CV__SIMD_FORWARD 128
-#include "opencv2/core/hal/intrin_forward.hpp"
+#include "opencv4/opencv2/core/hal/intrin_forward.hpp"
 #endif
 
 #if CV_SSE2 && !defined(CV_FORCE_SIMD128_CPP)
 
-#include "opencv2/core/hal/intrin_sse_em.hpp"
-#include "opencv2/core/hal/intrin_sse.hpp"
+#include "opencv4/opencv2/core/hal/intrin_sse_em.hpp"
+#include "opencv4/opencv2/core/hal/intrin_sse.hpp"
 
 #elif CV_NEON && !defined(CV_FORCE_SIMD128_CPP)
 
-#include "opencv2/core/hal/intrin_neon.hpp"
+#include "opencv4/opencv2/core/hal/intrin_neon.hpp"
 
 #elif CV_RVV071 && !defined(CV_FORCE_SIMD128_CPP)
 #define CV_SIMD128_CPP 0
-#include "opencv2/core/hal/intrin_rvv071.hpp"
+#include "opencv4/opencv2/core/hal/intrin_rvv071.hpp"
 
 #elif CV_VSX && !defined(CV_FORCE_SIMD128_CPP)
 
-#include "opencv2/core/hal/intrin_vsx.hpp"
+#include "opencv4/opencv2/core/hal/intrin_vsx.hpp"
 
 #elif CV_MSA && !defined(CV_FORCE_SIMD128_CPP)
 
-#include "opencv2/core/hal/intrin_msa.hpp"
+#include "opencv4/opencv2/core/hal/intrin_msa.hpp"
 
 #elif CV_WASM_SIMD && !defined(CV_FORCE_SIMD128_CPP)
-#include "opencv2/core/hal/intrin_wasm.hpp"
+#include "opencv4/opencv2/core/hal/intrin_wasm.hpp"
 
 #elif CV_RVV && !defined(CV_FORCE_SIMD128_CPP)
-#include "opencv2/core/hal/intrin_rvv.hpp"
+#include "opencv4/opencv2/core/hal/intrin_rvv.hpp"
 
 #else
 
-#include "opencv2/core/hal/intrin_cpp.hpp"
+#include "opencv4/opencv2/core/hal/intrin_cpp.hpp"
 
 #endif
 
@@ -249,8 +249,8 @@ using namespace CV_CPU_OPTIMIZATION_HAL_NAMESPACE;
 #if CV_AVX2
 
 #define CV__SIMD_FORWARD 256
-#include "opencv2/core/hal/intrin_forward.hpp"
-#include "opencv2/core/hal/intrin_avx.hpp"
+#include "opencv4/opencv2/core/hal/intrin_forward.hpp"
+#include "opencv4/opencv2/core/hal/intrin_avx.hpp"
 
 #endif
 
@@ -261,8 +261,8 @@ using namespace CV_CPU_OPTIMIZATION_HAL_NAMESPACE;
 #if CV_AVX512_SKX
 
 #define CV__SIMD_FORWARD 512
-#include "opencv2/core/hal/intrin_forward.hpp"
-#include "opencv2/core/hal/intrin_avx512.hpp"
+#include "opencv4/opencv2/core/hal/intrin_forward.hpp"
+#include "opencv4/opencv2/core/hal/intrin_avx512.hpp"
 
 #endif
 

@@ -42,7 +42,7 @@
 #ifndef OPENCV_OPENCL_HPP
 #define OPENCV_OPENCL_HPP
 
-#include "opencv2/core.hpp"
+#include "opencv4/opencv2/core.hpp"
 #include <typeinfo>
 #include <typeindex>
 

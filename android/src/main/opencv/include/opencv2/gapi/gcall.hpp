@@ -8,12 +8,12 @@
 #ifndef OPENCV_GAPI_GCALL_HPP
 #define OPENCV_GAPI_GCALL_HPP
 
-#include <opencv2/gapi/garg.hpp>      // GArg
-#include <opencv2/gapi/gmat.hpp>      // GMat
-#include <opencv2/gapi/gscalar.hpp>   // GScalar
-#include <opencv2/gapi/gframe.hpp>    // GFrame
-#include <opencv2/gapi/garray.hpp>    // GArray<T>
-#include <opencv2/gapi/gopaque.hpp>   // GOpaque<T>
+#include <opencv4/opencv2/gapi/garg.hpp>      // GArg
+#include <opencv4/opencv2/gapi/gmat.hpp>      // GMat
+#include <opencv4/opencv2/gapi/gscalar.hpp>   // GScalar
+#include <opencv4/opencv2/gapi/gframe.hpp>    // GFrame
+#include <opencv4/opencv2/gapi/garray.hpp>    // GArray<T>
+#include <opencv4/opencv2/gapi/gopaque.hpp>   // GOpaque<T>
 
 namespace cv {
 

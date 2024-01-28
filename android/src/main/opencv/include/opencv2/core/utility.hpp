@@ -53,7 +53,7 @@
 #  warning Detected Apple 'check' macro definition, it can cause build conflicts. Please, include this header before any Apple headers.
 #endif
 
-#include "opencv2/core.hpp"
+#include "opencv4/opencv2/core.hpp"
 #include <ostream>
 
 #include <functional>
@@ -1220,7 +1220,7 @@ CV_EXPORTS int getThreadID();
 } //namespace cv
 
 #ifdef CV_COLLECT_IMPL_DATA
-#include "opencv2/core/utils/instrumentation.hpp"
+#include "opencv4/opencv2/core/utils/instrumentation.hpp"
 #else
 /// Collect implementation data on OpenCV function call. Requires ENABLE_IMPL_COLLECTION build option.
 #define CV_IMPL_ADD(impl)

@@ -12,23 +12,23 @@
 #include <unordered_map>
 #include <type_traits>
 
-#include <opencv2/gapi/opencv_includes.hpp>
-#include <opencv2/gapi/own/mat.hpp>
-#include <opencv2/gapi/media.hpp>
+#include <opencv4/opencv2/gapi/opencv_includes.hpp>
+#include <opencv4/opencv2/gapi/own/mat.hpp>
+#include <opencv4/opencv2/gapi/media.hpp>
 
-#include <opencv2/gapi/util/util.hpp>
-#include <opencv2/gapi/util/any.hpp>
-#include <opencv2/gapi/util/variant.hpp>
+#include <opencv4/opencv2/gapi/util/util.hpp>
+#include <opencv4/opencv2/gapi/util/any.hpp>
+#include <opencv4/opencv2/gapi/util/variant.hpp>
 
-#include <opencv2/gapi/gmat.hpp>
-#include <opencv2/gapi/gscalar.hpp>
-#include <opencv2/gapi/garray.hpp>
-#include <opencv2/gapi/gopaque.hpp>
-#include <opencv2/gapi/gframe.hpp>
-#include <opencv2/gapi/gtype_traits.hpp>
-#include <opencv2/gapi/gmetaarg.hpp>
-#include <opencv2/gapi/streaming/source.hpp>
-#include <opencv2/gapi/rmat.hpp>
+#include <opencv4/opencv2/gapi/gmat.hpp>
+#include <opencv4/opencv2/gapi/gscalar.hpp>
+#include <opencv4/opencv2/gapi/garray.hpp>
+#include <opencv4/opencv2/gapi/gopaque.hpp>
+#include <opencv4/opencv2/gapi/gframe.hpp>
+#include <opencv4/opencv2/gapi/gtype_traits.hpp>
+#include <opencv4/opencv2/gapi/gmetaarg.hpp>
+#include <opencv4/opencv2/gapi/streaming/source.hpp>
+#include <opencv4/opencv2/gapi/rmat.hpp>
 
 namespace cv {
 

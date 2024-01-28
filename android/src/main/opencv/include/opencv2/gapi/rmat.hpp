@@ -7,8 +7,8 @@
 #ifndef OPENCV_GAPI_RMAT_HPP
 #define OPENCV_GAPI_RMAT_HPP
 
-#include <opencv2/gapi/gmat.hpp>
-#include <opencv2/gapi/own/exports.hpp>
+#include <opencv4/opencv2/gapi/gmat.hpp>
+#include <opencv4/opencv2/gapi/own/exports.hpp>
 
 // Forward declaration
 namespace cv {

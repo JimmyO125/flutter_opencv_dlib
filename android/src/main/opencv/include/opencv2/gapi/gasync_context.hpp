@@ -8,12 +8,12 @@
 #define OPENCV_GAPI_GASYNC_CONTEXT_HPP
 
 #if !defined(GAPI_STANDALONE)
-#  include <opencv2/core/cvdef.h>
+#  include <opencv4/opencv2/core/cvdef.h>
 #else   // Without OpenCV
-#  include <opencv2/gapi/own/cvdefs.hpp>
+#  include <opencv4/opencv2/gapi/own/cvdefs.hpp>
 #endif // !defined(GAPI_STANDALONE)
 
-#include <opencv2/gapi/own/exports.hpp>
+#include <opencv4/opencv2/gapi/own/exports.hpp>
 
 namespace cv {
 namespace gapi{

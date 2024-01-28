@@ -10,11 +10,11 @@
 
 #include <tuple>
 
-#include <opencv2/gapi/util/util.hpp>
-#include <opencv2/gapi/gtype_traits.hpp>
-#include <opencv2/gapi/garg.hpp>
-#include <opencv2/gapi/gcall.hpp>
-#include <opencv2/gapi/gkernel.hpp>
+#include <opencv4/opencv2/gapi/util/util.hpp>
+#include <opencv4/opencv2/gapi/gtype_traits.hpp>
+#include <opencv4/opencv2/gapi/garg.hpp>
+#include <opencv4/opencv2/gapi/gcall.hpp>
+#include <opencv4/opencv2/gapi/gkernel.hpp>
 
 namespace cv {
 namespace gapi {

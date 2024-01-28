@@ -8,10 +8,10 @@
 #ifndef OPENCV_GAPI_GSTREAMING_META_HPP
 #define OPENCV_GAPI_GSTREAMING_META_HPP
 
-#include <opencv2/gapi/gopaque.hpp>
-#include <opencv2/gapi/gcall.hpp>
-#include <opencv2/gapi/gkernel.hpp>
-#include <opencv2/gapi/gtype_traits.hpp>
+#include <opencv4/opencv2/gapi/gopaque.hpp>
+#include <opencv4/opencv2/gapi/gcall.hpp>
+#include <opencv4/opencv2/gapi/gkernel.hpp>
+#include <opencv4/opencv2/gapi/gtype_traits.hpp>
 
 namespace cv {
 namespace gapi {

@@ -8,8 +8,8 @@
 #ifndef OPENCV_GAPI_OPERATORS_HPP
 #define OPENCV_GAPI_OPERATORS_HPP
 
-#include <opencv2/gapi/gmat.hpp>
-#include <opencv2/gapi/gscalar.hpp>
+#include <opencv4/opencv2/gapi/gmat.hpp>
+#include <opencv4/opencv2/gapi/gscalar.hpp>
 
 namespace cv
 {

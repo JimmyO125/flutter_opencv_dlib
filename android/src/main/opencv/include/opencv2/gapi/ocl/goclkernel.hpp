@@ -13,10 +13,10 @@
 #include <map>
 #include <unordered_map>
 
-#include <opencv2/core/mat.hpp>
-#include <opencv2/gapi/gcommon.hpp>
-#include <opencv2/gapi/gkernel.hpp>
-#include <opencv2/gapi/garg.hpp>
+#include <opencv4/opencv2/core/mat.hpp>
+#include <opencv4/opencv2/gapi/gcommon.hpp>
+#include <opencv4/opencv2/gapi/gkernel.hpp>
+#include <opencv4/opencv2/gapi/garg.hpp>
 
 // FIXME: namespace scheme for backends?
 namespace cv {

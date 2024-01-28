@@ -5,9 +5,9 @@
 #ifndef OPENCV_CORE_BINDINGS_UTILS_HPP
 #define OPENCV_CORE_BINDINGS_UTILS_HPP
 
-#include <opencv2/core/async.hpp>
-#include <opencv2/core/detail/async_promise.hpp>
-#include <opencv2/core/utils/logger.hpp>
+#include <opencv4/opencv2/core/async.hpp>
+#include <opencv4/opencv2/core/detail/async_promise.hpp>
+#include <opencv4/opencv2/core/utils/logger.hpp>
 
 #include <stdexcept>
 

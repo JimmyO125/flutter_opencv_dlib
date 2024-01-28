@@ -5,7 +5,7 @@
 #ifndef OPENCV_VIDEOIO_REGISTRY_HPP
 #define OPENCV_VIDEOIO_REGISTRY_HPP
 
-#include <opencv2/videoio.hpp>
+#include <opencv4/opencv2/videoio.hpp>
 
 namespace cv { namespace videoio_registry {
 /** @addtogroup videoio_registry

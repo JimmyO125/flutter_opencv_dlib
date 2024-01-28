@@ -12,8 +12,8 @@
 
 #include <limits>
 
-#include <opencv2/gapi/own/assert.hpp>
-#include <opencv2/gapi/util/type_traits.hpp>
+#include <opencv4/opencv2/gapi/own/assert.hpp>
+#include <opencv4/opencv2/gapi/util/type_traits.hpp>
 
 namespace cv { namespace gapi { namespace own {
 //-----------------------------

@@ -9,7 +9,7 @@
 
 #include <utility> // std::tuple
 
-#include <opencv2/gapi/gkernel.hpp>
+#include <opencv4/opencv2/gapi/gkernel.hpp>
 
 
 /** \defgroup gapi_video G-API Video processing functionality

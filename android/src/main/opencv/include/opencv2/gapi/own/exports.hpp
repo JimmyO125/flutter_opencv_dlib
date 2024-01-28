@@ -9,7 +9,7 @@
 #define OPENCV_GAPI_OWN_TYPES_HPP
 
 #   if defined(__OPENCV_BUILD)
-#       include <opencv2/core/base.hpp>
+#       include <opencv4/opencv2/core/base.hpp>
 #       define GAPI_EXPORTS CV_EXPORTS
         /* special informative macros for wrapper generators */
 #       define GAPI_PROP CV_PROP

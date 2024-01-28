@@ -10,8 +10,8 @@
 
 #if !defined(GAPI_STANDALONE)
 
-#include <opencv2/gapi/opencv_includes.hpp>
-#include <opencv2/gapi/own/mat.hpp>
+#include <opencv4/opencv2/gapi/opencv_includes.hpp>
+#include <opencv4/opencv2/gapi/own/mat.hpp>
 
 namespace cv
 {

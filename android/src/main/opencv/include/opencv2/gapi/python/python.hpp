@@ -8,8 +8,8 @@
 #ifndef OPENCV_GAPI_PYTHON_API_HPP
 #define OPENCV_GAPI_PYTHON_API_HPP
 
-#include <opencv2/gapi/gkernel.hpp>     // GKernelPackage
-#include <opencv2/gapi/own/exports.hpp> // GAPI_EXPORTS
+#include <opencv4/opencv2/gapi/gkernel.hpp>     // GKernelPackage
+#include <opencv4/opencv2/gapi/own/exports.hpp> // GAPI_EXPORTS
 
 namespace cv {
 namespace gapi {

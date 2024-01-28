@@ -10,7 +10,7 @@
 #include <limits>
 #include <string>
 
-#include "opencv2/gapi/own/exports.hpp" // GAPI_EXPORTS
+#include "opencv4/opencv2/gapi/own/exports.hpp" // GAPI_EXPORTS
 
 namespace cv {
 namespace gapi {

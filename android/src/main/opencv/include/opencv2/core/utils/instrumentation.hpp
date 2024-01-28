@@ -5,8 +5,8 @@
 #ifndef OPENCV_UTILS_INSTR_HPP
 #define OPENCV_UTILS_INSTR_HPP
 
-#include <opencv2/core/utility.hpp>
-#include <opencv2/core/utils/tls.hpp>
+#include <opencv4/opencv2/core/utility.hpp>
+#include <opencv4/opencv2/core/utils/tls.hpp>
 
 namespace cv {
 

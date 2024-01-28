@@ -23,9 +23,9 @@
  */
 #include <chrono>
 
-#include <opencv2/videoio.hpp>
-#include <opencv2/gapi/garg.hpp>
-#include <opencv2/gapi/streaming/meta.hpp>
+#include <opencv4/opencv2/videoio.hpp>
+#include <opencv4/opencv2/gapi/garg.hpp>
+#include <opencv4/opencv2/gapi/streaming/meta.hpp>
 
 namespace cv {
 namespace gapi {

@@ -7,10 +7,10 @@
 #ifndef OPENCV_GAPI_INFER_BINDINGS_IE_HPP
 #define OPENCV_GAPI_INFER_BINDINGS_IE_HPP
 
-#include <opencv2/gapi/util/any.hpp>
-#include "opencv2/gapi/own/exports.hpp" // GAPI_EXPORTS
-#include <opencv2/gapi/gkernel.hpp>     // GKernelPackage
-#include <opencv2/gapi/infer/ie.hpp>    // Params
+#include <opencv4/opencv2/gapi/util/any.hpp>
+#include "opencv4/opencv2/gapi/own/exports.hpp" // GAPI_EXPORTS
+#include <opencv4/opencv2/gapi/gkernel.hpp>     // GKernelPackage
+#include <opencv4/opencv2/gapi/infer/ie.hpp>    // Params
 
 #include <string>
 

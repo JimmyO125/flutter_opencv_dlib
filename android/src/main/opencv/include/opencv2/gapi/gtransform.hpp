@@ -11,12 +11,12 @@
 #include <type_traits>
 #include <utility>
 
-#include <opencv2/gapi/gcommon.hpp>
-#include <opencv2/gapi/util/util.hpp>
-#include <opencv2/gapi/garg.hpp>
-#include <opencv2/gapi/gtype_traits.hpp>
-#include <opencv2/gapi/util/compiler_hints.hpp>
-#include <opencv2/gapi/gcomputation.hpp>
+#include <opencv4/opencv2/gapi/gcommon.hpp>
+#include <opencv4/opencv2/gapi/util/util.hpp>
+#include <opencv4/opencv2/gapi/garg.hpp>
+#include <opencv4/opencv2/gapi/gtype_traits.hpp>
+#include <opencv4/opencv2/gapi/util/compiler_hints.hpp>
+#include <opencv4/opencv2/gapi/gcomputation.hpp>
 
 namespace cv
 {

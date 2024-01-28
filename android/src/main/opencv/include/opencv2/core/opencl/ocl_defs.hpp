@@ -8,7 +8,7 @@
 #ifndef OPENCV_CORE_OPENCL_DEFS_HPP
 #define OPENCV_CORE_OPENCL_DEFS_HPP
 
-#include "opencv2/core/utility.hpp"
+#include "opencv4/opencv2/core/utility.hpp"
 #include "cvconfig.h"
 
 namespace cv { namespace ocl {

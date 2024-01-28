@@ -5,8 +5,8 @@
 #ifndef OPENCV_CORE_PARALLEL_FOR_TBB_HPP
 #define OPENCV_CORE_PARALLEL_FOR_TBB_HPP
 
-#include "opencv2/core/parallel/parallel_backend.hpp"
-#include <opencv2/core/utils/logger.hpp>
+#include "opencv4/opencv2/core/parallel/parallel_backend.hpp"
+#include <opencv4/opencv2/core/utils/logger.hpp>
 
 #ifndef TBB_SUPPRESS_DEPRECATED_MESSAGES  // supress warning
 #define TBB_SUPPRESS_DEPRECATED_MESSAGES 1

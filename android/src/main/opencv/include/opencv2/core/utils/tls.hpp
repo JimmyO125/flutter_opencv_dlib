@@ -6,7 +6,7 @@
 #define OPENCV_UTILS_TLS_HPP
 
 #ifndef OPENCV_CORE_UTILITY_H
-#error "tls.hpp must be included after opencv2/core/utility.hpp or opencv2/core.hpp"
+#error "tls.hpp must be included after opencv4/opencv2/core/utility.hpp or opencv4/opencv2/core.hpp"
 #endif
 
 namespace cv {

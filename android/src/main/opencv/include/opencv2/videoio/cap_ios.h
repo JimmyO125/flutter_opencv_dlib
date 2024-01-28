@@ -30,7 +30,7 @@
 #import <Accelerate/Accelerate.h>
 #import <AVFoundation/AVFoundation.h>
 #import <ImageIO/ImageIO.h>
-#include "opencv2/core.hpp"
+#include "opencv4/opencv2/core.hpp"
 
 //! @addtogroup videoio_ios
 //! @{

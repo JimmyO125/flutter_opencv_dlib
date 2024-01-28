@@ -43,7 +43,7 @@
 #ifndef OPENCV_IMGPROC_TYPES_C_H
 #define OPENCV_IMGPROC_TYPES_C_H
 
-#include "opencv2/core/core_c.h"
+#include "opencv4/opencv2/core/core_c.h"
 
 #ifdef __cplusplus
 extern "C" {

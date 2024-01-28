@@ -7,7 +7,7 @@
 #ifndef OPENCV_GAPI_CPU_STEREO_API_HPP
 #define OPENCV_GAPI_CPU_STEREO_API_HPP
 
-#include <opencv2/gapi/gkernel.hpp> // GKernelPackage
+#include <opencv4/opencv2/gapi/gkernel.hpp> // GKernelPackage
 
 namespace cv {
 namespace gapi {

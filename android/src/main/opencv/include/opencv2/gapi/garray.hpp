@@ -13,15 +13,15 @@
 #include <vector>
 #include <memory>
 
-#include <opencv2/gapi/own/exports.hpp>
-#include <opencv2/gapi/opencv_includes.hpp>
+#include <opencv4/opencv2/gapi/own/exports.hpp>
+#include <opencv4/opencv2/gapi/opencv_includes.hpp>
 
-#include <opencv2/gapi/util/variant.hpp>
-#include <opencv2/gapi/util/throw.hpp>
-#include <opencv2/gapi/own/assert.hpp>
+#include <opencv4/opencv2/gapi/util/variant.hpp>
+#include <opencv4/opencv2/gapi/util/throw.hpp>
+#include <opencv4/opencv2/gapi/own/assert.hpp>
 
-#include <opencv2/gapi/gmat.hpp>    // flatten_g only!
-#include <opencv2/gapi/gscalar.hpp> // flatten_g only!
+#include <opencv4/opencv2/gapi/gmat.hpp>    // flatten_g only!
+#include <opencv4/opencv2/gapi/gscalar.hpp> // flatten_g only!
 
 namespace cv
 {

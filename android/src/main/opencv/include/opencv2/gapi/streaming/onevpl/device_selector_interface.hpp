@@ -12,7 +12,7 @@
 #include <string>
 #include <vector>
 
-#include <opencv2/gapi/streaming/onevpl/accel_types.hpp>
+#include <opencv4/opencv2/gapi/streaming/onevpl/accel_types.hpp>
 
 namespace cv {
 namespace gapi {

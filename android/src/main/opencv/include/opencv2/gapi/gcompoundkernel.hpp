@@ -8,10 +8,10 @@
 #ifndef OPENCV_GAPI_GCOMPOUNDKERNEL_HPP
 #define OPENCV_GAPI_GCOMPOUNDKERNEL_HPP
 
-#include <opencv2/gapi/opencv_includes.hpp>
-#include <opencv2/gapi/gcommon.hpp>
-#include <opencv2/gapi/gkernel.hpp>
-#include <opencv2/gapi/garg.hpp>
+#include <opencv4/opencv2/gapi/opencv_includes.hpp>
+#include <opencv4/opencv2/gapi/gcommon.hpp>
+#include <opencv4/opencv2/gapi/gkernel.hpp>
+#include <opencv4/opencv2/gapi/garg.hpp>
 
 namespace cv {
 namespace gapi
