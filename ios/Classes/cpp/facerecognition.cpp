@@ -12,7 +12,7 @@ using namespace dlib;
 using namespace std;
 
 // threshold under which a face is considered matched
-#define LENGTH_THRESHOLD 0.6
+#define LENGTH_THRESHOLD 0.3
 
 FaceRecognition::FaceRecognition()
 {
