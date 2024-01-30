@@ -6,6 +6,7 @@
 #include <opencv2/imgcodecs.hpp>
 
 enum ColorSpace {
+    
     SRC_RGB = 0,
     SRC_BGR,
     SRC_RGBA,
